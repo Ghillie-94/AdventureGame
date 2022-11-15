@@ -14,7 +14,7 @@ int main()
 	Area throneRoom;
 	
 	throneRoom.name = "Throne Room";
-	throneRoom.areaDescription = "A vast room that has lots of free space. The decor of the room is extravgant and ornate. The floor is made of shiny white marbel amalgamated with white gold. The throne itself is extravagant with beautiful gems encrusted and precious metal trimming. ";
+	throneRoom.areaDescription = "A vast room that has lots of free space. The decor of the room is extravgant and ornate. The floor is made of shiny white marble amalgamated with white gold. The throne itself is extravagant with beautiful gems encrusted and precious metal trimming. ";
 	
 	Area dungeon;
 

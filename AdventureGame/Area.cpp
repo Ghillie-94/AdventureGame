@@ -3,6 +3,17 @@
 #include <iostream>
 
 
+void Area::Go(std::string targetArea, Player& toMove)
+{
+	for (int i = 0; i < connectedAreas.size(); ++i) 
+	{
+		if (connectedAreas[i]->name == targetArea) 
+		{
+		
+		}
+	}
+}
+
 void Area::Look()
 {
 	std::cout << "You are in " << name << ". " << areaDescription << std::endl
