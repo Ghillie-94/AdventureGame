@@ -1,6 +1,7 @@
 #include "Area.h"
 #include <string>
 #include <iostream>
+#include "Player.h"
 
 
 void Area::Go(std::string targetArea, Player& toMove)
@@ -9,7 +10,7 @@ void Area::Go(std::string targetArea, Player& toMove)
 	{
 		if (connectedAreas[i]->name == targetArea) 
 		{
-		
+			toMove.currentArea = connectedAreas[i];
 		}
 	}
 }
